@@ -219,12 +219,22 @@ ____________________________________________________________________________
 Q-8 Write a program which takes the month number as an input and display number of days in that month.
 Ans =
 
-
-
-
-
-
-
+#include<stdio.h>
+     #include<conio.h>
+     int main()
+     {
+        int m;
+        printf("Enter the month:");
+        scanf("%d",&m);
+        if(m==1||m==3||m==5||m==7m==8||m==10||m==12)
+           printf("31 days");
+        else if(m==2)
+                printf("28 days");
+             else
+                printf("30 days");
+        getch();     
+      }
+_________________________________________________________________________
 
 Q-9 Write a program to find the nature of roots of a quadratic equation.
 Ans = 
